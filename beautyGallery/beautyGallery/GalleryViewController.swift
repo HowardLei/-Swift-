@@ -25,7 +25,6 @@ class GalleryViewController: UIViewController {
         }
         
     }
-    
     @IBAction func shareTapped(_ sender: Any) {
         let controller: SLComposeViewController =  SLComposeViewController(forServiceType: SLServiceTypeSinaWeibo)//无法分享，没法调用新浪微博的接口，在iOS11上已经取消了
         controller.setInitialText("一起来玩女神画廊吧，就在App Store上")
