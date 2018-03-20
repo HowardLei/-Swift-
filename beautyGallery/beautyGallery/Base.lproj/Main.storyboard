@@ -73,7 +73,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="EFW-Q5-QMn"/>
+                    <navigationItem key="navigationItem" id="EFW-Q5-QMn">
+                        <barButtonItem key="rightBarButtonItem" title="分享" id="dff-8H-x03">
+                            <connections>
+                                <action selector="shareTapped:" destination="IqW-KA-IAt" id="vgq-jC-MHr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="beautyImage" destination="lpL-Mu-qeD" id="HdF-lj-H8Z"/>
                     </connections>
