@@ -1,11 +1,3 @@
-//
-//  ViewControllerExtension.swift
-//  beautyGallery
-//
-//  Created by jyz on 2018/3/18.
-//  Copyright © 2018年 jyz. All rights reserved.
-//
-
 import UIKit
 
 extension ViewController: UIPickerViewDataSource{
