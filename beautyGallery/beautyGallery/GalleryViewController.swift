@@ -25,8 +25,11 @@ class GalleryViewController: UIViewController {
         }
         
     }
+    // FIXME: - 未完成
+    // MARK: - sdkjfsdj
     @IBAction func shareTapped(_ sender: Any) {
-        let controller: SLComposeViewController =  SLComposeViewController(forServiceType: SLServiceTypeSinaWeibo)//无法分享，没法调用新浪微博的接口，在iOS11上已经取消了
+        // 无法分享，没法调用新浪微博的接口，在iOS11上已经取消了，如果要做的话还需要开发者账号
+        let controller: SLComposeViewController =  SLComposeViewController(forServiceType: SLServiceTypeSinaWeibo)
         controller.setInitialText("一起来玩女神画廊吧，就在App Store上")
         controller.add(beautyImage.image)
         self.present(controller, animated: true, completion: nil)
