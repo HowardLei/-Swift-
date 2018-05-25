@@ -52,46 +52,6 @@
             </objects>
             <point key="canvasLocation" x="641" y="-158"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="JQh-KK-bFT">
-            <objects>
-                <viewController id="GD4-ai-kFq" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5sq-p3-Zoe"/>
-                        <viewControllerLayoutGuide type="bottom" id="6tk-ma-IWM"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UjU-C0-zvD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BA5-om-mep">
-                                <rect key="frame" x="20" y="90" width="374" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pJK-h3-W5p">
-                                <rect key="frame" x="20" y="37" width="374" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="pJK-h3-W5p" firstAttribute="leading" secondItem="UjU-C0-zvD" secondAttribute="leading" constant="20" id="44V-pp-G3p"/>
-                            <constraint firstAttribute="trailing" secondItem="pJK-h3-W5p" secondAttribute="trailing" constant="20" id="4og-ac-Hmp"/>
-                            <constraint firstItem="BA5-om-mep" firstAttribute="leading" secondItem="UjU-C0-zvD" secondAttribute="leading" constant="20" id="UWF-KY-r8s"/>
-                            <constraint firstItem="pJK-h3-W5p" firstAttribute="top" secondItem="5sq-p3-Zoe" secondAttribute="bottom" constant="17" id="Xkt-If-bg7"/>
-                            <constraint firstItem="BA5-om-mep" firstAttribute="top" secondItem="pJK-h3-W5p" secondAttribute="bottom" constant="23" id="cS8-1o-hS4"/>
-                            <constraint firstItem="BA5-om-mep" firstAttribute="width" secondItem="pJK-h3-W5p" secondAttribute="width" id="txD-Wd-6H3"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aBL-6W-fYf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1003" y="721"/>
-        </scene>
         <!--Gallery View Controller-->
         <scene sceneID="NpE-kQ-0Uq">
             <objects>
@@ -211,6 +171,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rBl-JX-0sn" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u2v-T4-Wes">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
